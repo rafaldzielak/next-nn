@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <nav>
       <div className='logo'>
@@ -19,3 +19,5 @@ export const Navbar = () => {
     </nav>
   );
 };
+
+export default Navbar;
